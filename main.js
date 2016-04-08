@@ -31,7 +31,7 @@ var arnoldBottomPage3 = $('.bottomPage3-Arnold');
 var arnoldBottomPage4 = $('.bottomPage4-Arnold');
 var arnoldBottomPage5 = $('.bottomPage5-Arnold');
 var arnoldBottomPage6 = $('.bottomPage6-Arnold');
-
+var batmanPage =$('.batmanPage');
 
 // TOP PAGE BUTTONS START
 
@@ -43,9 +43,9 @@ arnoldButton.addEventListener('click', function(){
 });
 
 batmanButton.addEventListener('click', function(){
-	// topPage.hide();
-	// arnoldPage.show();
-
+	topPage.hide();
+	arnoldPage.hide();
+	batmanPage.show();
 	console.log('you clicked me I AM BATMAN!');
 });
 

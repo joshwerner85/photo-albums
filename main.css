@@ -4,7 +4,7 @@
     display:block;
 }
 
-.arnoldPage {
+.arnoldPage, .batmanPage {
     display: none;
 }
 
@@ -261,13 +261,13 @@ button.freezeBtn:hover {
 }
 
 
-.arnold-header {
+.arnold-header,.batman-header {
     height: 100px;
     background: black;
 }
 
 
-#arnold-image1 {
+#arnold-image1,#batman-image1 {
     width: 200px;
     height: 300px;
     border: 4px solid black;
@@ -275,7 +275,7 @@ button.freezeBtn:hover {
     float: left;
 }
 
-#arnold-image2 {
+#arnold-image2,#batman-image2 {
     width: 200px;
     height: 300px;
     border: 4px solid black;
@@ -283,7 +283,7 @@ button.freezeBtn:hover {
     float: left;
 }
 
-#arnold-image3 {
+#arnold-image3,#batman-image3{
     width: 200px;
     height: 300px;
     border: 4px solid black;
@@ -291,7 +291,7 @@ button.freezeBtn:hover {
     float: left;
 }
 
-#arnold-image4 {
+#arnold-image4,#batman-image4  {
     width: 200px;
     height: 300px;
     border: 4px solid black;
@@ -299,7 +299,7 @@ button.freezeBtn:hover {
     float: left;
 }
 
-#arnold-image5 {
+#arnold-image5,#batman-image5 {
     width: 200px;
     height: 300px;
     border: 4px solid black;
@@ -307,7 +307,7 @@ button.freezeBtn:hover {
     float: left;
 }
 
-#arnold-image6 {
+#arnold-image6,#batman-image6 {
     width: 200px;
     height: 300px;
     border: 4px solid black;
@@ -411,4 +411,9 @@ button.backBtn1Arnold:hover {
 
 
 /*END ARNOLD PAGE SECTION ENDS HERE*/
-*/
+
+
+
+/*BATMAN SECTION STARTS HERE*/
+
+
